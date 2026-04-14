@@ -33,11 +33,9 @@ Python 3.6+
 PyQt5（需包含 QtMultimedia 组件）
 
 # 安装依赖
-'
-bash
-运行
+
 pip install PyQt5
-'
+
 ⚠️ 注意：部分系统（如 Linux）可能需要额外安装 Qt 多媒体插件，例如：
 Ubuntu/Debian: sudo apt-get install libqt5multimedia5-plugins
 
@@ -45,8 +43,6 @@ Ubuntu/Debian: sudo apt-get install libqt5multimedia5-plugins
 
 ## 1. 运行程序
 
-bash
-运行
 python floating_player.py
 
 ## 2. 打开视频文件
@@ -84,16 +80,15 @@ python floating_player.py
 
 # 快捷键列表
 
-表格
-快捷键	功能
-空格	播放 / 暂停
-←	进度后退 10 秒
-→	进度前进 10 秒
-↑	音量 + 5%
-↓	音量 - 5%
-M	静音 / 取消静音
-O	打开文件选择窗口
-ESC	隐藏播放列表（显示时）/ 退出程序（无列表时）
+
+. 空格	播放 / 暂停
+. ←	进度后退 10 秒
+. →	进度前进 10 秒
+. ↑	音量 + 5%
+. ↓	音量 - 5%
+. M	静音 / 取消静音
+. O	打开文件选择窗口
+. ESC	隐藏播放列表（显示时）/ 退出程序（无列表时）
 
 
 # 自定义配置
@@ -108,8 +103,8 @@ AUTO_HIDE_DELAY = 1500
 
 # 注意事项
 
-.音频设备选择功能依赖 QAudioOutputSelectorControl，部分 PyQt5 版本 / 系统可能不支持，属正常现象
-.GIF 文件仅支持播放，进度调节可能无效（GIF 格式特性）
-.窗口置顶模式下，部分全屏应用可能覆盖播放器（系统层级限制）
-.高 DPI 屏幕已做适配，若显示异常可调整系统缩放比例
-.点击右下角按钮可最小化，最小化到屏幕左下角
+. 音频设备选择功能依赖 QAudioOutputSelectorControl，部分 PyQt5 版本 / 系统可能不支持，属正常现象
+. GIF 文件仅支持播放，进度调节可能无效（GIF 格式特性）
+. 窗口置顶模式下，部分全屏应用可能覆盖播放器（系统层级限制）
+. 高 DPI 屏幕已做适配，若显示异常可调整系统缩放比例
+. 点击右下角按钮可最小化，最小化到屏幕左下角
