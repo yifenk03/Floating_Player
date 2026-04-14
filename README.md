@@ -1,15 +1,7 @@
----
-AIGC:
-    ContentProducer: Minimax Agent AI
-    ContentPropagator: Minimax Agent AI
-    Label: AIGC
-    ProduceID: 56277771274967ea0bc4f5f4ef695dd3
-    PropagateID: 56277771274967ea0bc4f5f4ef695dd3
-    ReservedCode1: 3044022011866da13a677a448107087c70cbb66bb1d3db9a81a8eaa0dfb7da8ae9a67dc6022043e0cf4f364fb9d1a370af24eb2624ade74026b8a211a5ca717c774988cca95a
-    ReservedCode2: 3046022100f301f72191235cf4ca703f4f4537e0f2a0819bf13eda34757791c250b6ef69f9022100f1774881adfe6ed3f71ff14ead662bb81eb114c9fb190f8757d06d399f733128
----
 
-# 漂浮视频播放器 - 打包说明
+# 漂浮视频播放器
+
+![界面](GUI.png)
 
 ## 当前环境说明
 
