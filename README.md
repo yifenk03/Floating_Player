@@ -40,7 +40,7 @@ pip install PyQt5
 ⚠️ 注意：部分系统（如 Linux）可能需要额外安装 Qt 多媒体插件，例如：
 Ubuntu/Debian: sudo apt-get install libqt5multimedia5-plugins
 
-#使用方法
+# 使用方法
 
 ## 1. 运行程序
 
