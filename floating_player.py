@@ -242,8 +242,9 @@ class FloatingVideoPlayer(QWidget):
         control_layout.addWidget(self.next_btn)
 
         self.progress_slider = QSlider(Qt.Orientation.Horizontal)
-        self.progress_slider.setRange(0, 0)
+        self.progress_slider.setRange(0, 0)     #初始背景色：#555           #3b82f6; 
         self.progress_slider.setStyleSheet("""
+            QSlider:horizontal { background: rgba(51, 51, 51, 0.9); border-radius: 2px; }
             QSlider::groove:horizontal { background: #555; height: 4px; border-radius: 2px; }
             QSlider::handle:horizontal { background: white; width: 10px; height: 10px; margin: -3px 0; border-radius: 5px; }
             QSlider::sub-page:horizontal { background: #3b82f6; }
@@ -260,9 +261,10 @@ class FloatingVideoPlayer(QWidget):
         self.volume_slider = QSlider(Qt.Orientation.Horizontal)
         self.volume_slider.setFixedWidth(40)
         self.volume_slider.setRange(0, 100)
-        self.volume_slider.setValue(50)
+        self.volume_slider.setValue(15)     #初始背景色：#555
         self.volume_slider.setStyleSheet("""
-            QSlider::groove:horizontal { background: #555; height: 4px; border-radius: 2px; }
+            QSlider:horizontal { background: rgba(51, 51, 51, 0.9); border-radius: 2px; }
+            QSlider::groove:horizontal { background: #555; height: 4px; border-radius: 2px; }       
             QSlider::handle:horizontal { background: white; width: 8px; height: 8px; margin: -2px 0; border-radius: 4px; }
             QSlider::sub-page:horizontal { background: white; }
         """)
