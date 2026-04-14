@@ -260,7 +260,7 @@ class FloatingVideoPlayer(QWidget):
         self.volume_slider = QSlider(Qt.Orientation.Horizontal)
         self.volume_slider.setFixedWidth(40)
         self.volume_slider.setRange(0, 100)
-        self.volume_slider.setValue(100)
+        self.volume_slider.setValue(50)
         self.volume_slider.setStyleSheet("""
             QSlider::groove:horizontal { background: #555; height: 4px; border-radius: 2px; }
             QSlider::handle:horizontal { background: white; width: 8px; height: 8px; margin: -2px 0; border-radius: 4px; }
